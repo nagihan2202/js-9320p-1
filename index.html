@@ -13,10 +13,16 @@
   <body>
     <div class="container text-center my-5">
       <h1 class="display-4">Star Wars Karakterleri</h1>
-      <button
-        id="showCharactersButton"
-        class="btn btn-success my-3"
-      >
+      <h2>Anavatan Seçimi</h2>
+      <form
+        id="homeworldForm"
+        class="mt-2"
+      ></form>
+      <button id="filterButton" class="btn btn-primary mt-5">Filtrele</button>
+      <div id="selectedHomeworld" class="mt-3"></div>
+    </div>
+    <div class="container text-center my-5">
+      <button id="showCharactersButton" class="btn btn-success my-1">
         Karakterleri göster
       </button>
       <div id="characterContainer" class="row">
@@ -25,5 +31,8 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
